@@ -1,7 +1,8 @@
 
+
 /* Basic of software code development
- * Циклы, задание 2
- * Произведение квадратов первых двухсот чисел
+ * Р¦РёРєР»С‹, Р·Р°РґР°РЅРёРµ 2
+ * РџСЂРѕРёР·РІРµРґРµРЅРёРµ РєРІР°РґСЂР°С‚РѕРІ РїРµСЂРІС‹С… РґРІСѓС…СЃРѕС‚ С‡РёСЃРµР»
 */
 
 package by.epam.java.basic.cycle;
@@ -13,18 +14,18 @@ public class Cyc4 {
 	public static void main(String[] args) {
 		
 		/*
-		int a = 1; // счётчик
-		BigInteger x = BigInteger.valueOf(1); // число
-		BigInteger b = BigInteger.valueOf(1); // для увеличения числа
-		BigInteger y = BigInteger.valueOf(1); // квадрат числа
-		BigInteger z = BigInteger.valueOf(1); // произведение квадратов
+		int a = 1; // СЃС‡С‘С‚С‡РёРє
+		BigInteger x = BigInteger.valueOf(1); // С‡РёСЃР»Рѕ
+		BigInteger b = BigInteger.valueOf(1); // РґР»СЏ СѓРІРµР»РёС‡РµРЅРёСЏ С‡РёСЃР»Р°
+		BigInteger y = BigInteger.valueOf(1); // РєРІР°РґСЂР°С‚ С‡РёСЃР»Р°
+		BigInteger z = BigInteger.valueOf(1); // РїСЂРѕРёР·РІРµРґРµРЅРёРµ РєРІР°РґСЂР°С‚РѕРІ
 		while (a <= 200) {
 			y = x.multiply(x);
 			z = z.multiply(y);
 			x = x.add(b);
 			a++;
 		}
-		System.out.println("Произведение квадратов первых двухста чисел = " + z);
+		System.out.println("РџСЂРѕРёР·РІРµРґРµРЅРёРµ РєРІР°РґСЂР°С‚РѕРІ РїРµСЂРІС‹С… РґРІСѓС…СЃС‚Р° С‡РёСЃРµР» = " + z);
 		*/
 		
 		int Val = 1;
@@ -38,7 +39,7 @@ public class Cyc4 {
 			squareVal = Val*Val;
 			
 			if ((multSquareVal)>=Long.MAX_VALUE/squareVal) {
-				System.out.println("По достижении числа " + Val+ " произведение выходит за допустимые границы типа LONG");
+				System.out.println("РџРѕ РґРѕСЃС‚РёР¶РµРЅРёРё С‡РёСЃР»Р° " + Val+ " РїСЂРѕРёР·РІРµРґРµРЅРёРµ РІС‹С…РѕРґРёС‚ Р·Р° РґРѕРїСѓСЃС‚РёРјС‹Рµ РіСЂР°РЅРёС†С‹ С‚РёРїР° LONG");
 				Val=201;
 				
 			} else {
@@ -48,7 +49,7 @@ public class Cyc4 {
 			}
 		}
 		if (Val==200) {
-			System.out.println("Произведение квадратов первых двухста чисел = " + multSquareVal);
+			System.out.println("РџСЂРѕРёР·РІРµРґРµРЅРёРµ РєРІР°РґСЂР°С‚РѕРІ РїРµСЂРІС‹С… РґРІСѓС…СЃС‚Р° С‡РёСЃРµР» = " + multSquareVal);
 		}
 	}
 }
