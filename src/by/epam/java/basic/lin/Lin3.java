@@ -1,7 +1,7 @@
 
 /* Basic of software code development
- * Линейные программы, задание 3
- * Вычислить значение выражения по формуле
+ * Р›РёРЅРµР№РЅС‹Рµ РїСЂРѕРіСЂР°РјРјС‹, Р·Р°РґР°РЅРёРµ 3
+ * Р’С‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ РІС‹СЂР°Р¶РµРЅРёСЏ РїРѕ С„РѕСЂРјСѓР»Рµ
  */
 
 package by.epam.java.basic.lin;
@@ -17,13 +17,13 @@ public class Lin3 {
 		double c;
 		
 		@SuppressWarnings("resource")
-		Scanner Z = new Scanner(System.in); // получаем переменные
-		System.out.println("Введите значение х");
+		Scanner Z = new Scanner(System.in); // РїРѕР»СѓС‡Р°РµРј РїРµСЂРµРјРµРЅРЅС‹Рµ
+		System.out.println("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ С…");
 		x = Z.nextDouble();
-		System.out.println("Введите значение у");
+		System.out.println("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ Сѓ");
 		y = Z.nextDouble();
 		
-		c = ((Math.sin(x) + Math.cos(y)) / (Math.cos(x) - Math.sin(y)) * Math.tan(x * y)); // считаем выражение
+		c = ((Math.sin(x) + Math.cos(y)) / (Math.cos(x) - Math.sin(y)) * Math.tan(x * y)); // СЃС‡РёС‚Р°РµРј РІС‹СЂР°Р¶РµРЅРёРµ
 		System.out.println(c);
 	}
 }
