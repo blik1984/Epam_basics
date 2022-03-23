@@ -1,6 +1,6 @@
 /* Basic of software code development
- * Ветвления, задание 2
- * В двух парах чисел найти минимальные значения, а из найденных определить максимальное
+ * Р’РµС‚РІР»РµРЅРёСЏ, Р·Р°РґР°РЅРёРµ 2
+ * Р’ РґРІСѓС… РїР°СЂР°С… С‡РёСЃРµР» РЅР°Р№С‚Рё РјРёРЅРёРјР°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ, Р° РёР· РЅР°Р№РґРµРЅРЅС‹С… РѕРїСЂРµРґРµР»РёС‚СЊ РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ
  */
 
 package by.epam.java.basic.branching;
@@ -21,19 +21,19 @@ public class Bran2 {
 		
 		@SuppressWarnings("resource")
 		Scanner S = new Scanner(System.in);
-		System.out.println("Введите число а"); // Предполагаем что все числа целые
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ Р°"); // РџСЂРµРґРїРѕР»Р°РіР°РµРј С‡С‚Рѕ РІСЃРµ С‡РёСЃР»Р° С†РµР»С‹Рµ
 		a = S.nextInt();
-		System.out.println("Введите число b");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ b");
 		b = S.nextInt();
-		System.out.println("Введите число c");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ c");
 		c = S.nextInt();
-		System.out.println("Введите число d");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ d");
 		d = S.nextInt();
 		
 		minAB = Math.min(a, b);
 		minCD = Math.min(c, d);
 		max = Math.max(minAB, minCD);
 		
-		System.out.println("Итог = " + max);
+		System.out.println("РС‚РѕРі = " + max);
 	}
 }
