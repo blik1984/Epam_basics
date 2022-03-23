@@ -1,7 +1,7 @@
 
 /* Basic of software code development
- * Циклы, задание 8
- * Даны два числа, определить цифры, которые встречаются в обоих числах
+ * Р¦РёРєР»С‹, Р·Р°РґР°РЅРёРµ 8
+ * Р”Р°РЅС‹ РґРІР° С‡РёСЃР»Р°, РѕРїСЂРµРґРµР»РёС‚СЊ С†РёС„СЂС‹, РєРѕС‚РѕСЂС‹Рµ РІСЃС‚СЂРµС‡Р°СЋС‚СЃСЏ РІ РѕР±РѕРёС… С‡РёСЃР»Р°С…
 */
 
 package by.epam.java.basic.cycle;
@@ -18,9 +18,9 @@ public class Cyc8 {
 		
 		@SuppressWarnings("resource")
 		Scanner S = new Scanner(System.in);
-		System.out.println("Введите первое число");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ");
 		num1 = S.next();
-		System.out.println("Введите второе число");
+		System.out.println("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ");
 		num2 = S.next();
 		
 		while (count <= 9) {
@@ -30,7 +30,7 @@ public class Cyc8 {
 			boolean b2 = (num2.contains(a0));
 			
 			if (b1 == true && b2 == true) {
-				System.out.println("Цифра " + a0 + " встречается в обоих числах");
+				System.out.println("Р¦РёС„СЂР° " + a0 + " РІСЃС‚СЂРµС‡Р°РµС‚СЃСЏ РІ РѕР±РѕРёС… С‡РёСЃР»Р°С…");
 			}
 			count++;
 		}
