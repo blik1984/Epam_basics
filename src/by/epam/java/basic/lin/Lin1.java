@@ -1,6 +1,6 @@
 /* Basic of software code development
- * Линейные программы, задание 1
- * Вычислить значение функции
+ * Р›РёРЅРµР№РЅС‹Рµ РїСЂРѕРіСЂР°РјРјС‹, Р·Р°РґР°РЅРёРµ 1
+ * Р’С‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё
  */
 
 package by.epam.java.basic.lin;
@@ -17,15 +17,15 @@ public class Lin1 {
 		double z;
 		
 		@SuppressWarnings("resource")
-		Scanner console = new Scanner(System.in); // получаем аргументы функции
-		System.out.println("Введите число а");
+		Scanner console = new Scanner(System.in); // РїРѕР»СѓС‡Р°РµРј Р°СЂРіСѓРјРµРЅС‚С‹ С„СѓРЅРєС†РёРё
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ Р°");
 		a = console.nextDouble();
-		System.out.println("Введите число b");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ b");
 		b = console.nextDouble();
-		System.out.println("Введите число c");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ c");
 		c = console.nextDouble();
 		
-		z = ((a - 3) * b / 2) + c; // считаем
-		System.out.println("Итог" + z); // выводим
+		z = ((a - 3) * b / 2) + c; // СЃС‡РёС‚Р°РµРј
+		System.out.println("РС‚РѕРі" + z); // РІС‹РІРѕРґРёРј
 	}
 }
